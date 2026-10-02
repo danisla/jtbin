@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JTDD",
+    "name": "Double Dragon",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jtdd_rev4.bit"
+    }
+  ]
+}

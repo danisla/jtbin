@@ -15,6 +15,7 @@ Each core supports a single main MAME set. ROMs are not included: generate the
 |------|------|----------|
 | JT1942 | 1942 | `1942.rom` |
 | JT1943 | 1943: The Battle of Midway | `1943.rom` |
+| JTDD | Double Dragon (World set 1) | `ddragon.rom` |
 
 The cores are covered by the same license as the rest of this repository: use
 them only with ROM files you legally own.
