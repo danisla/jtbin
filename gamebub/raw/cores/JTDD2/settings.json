@@ -1,0 +1,272 @@
+{
+  "settings": [
+    {
+      "id": 0,
+      "label": "Reset",
+      "type": "action",
+      "address": "0x00002000",
+      "value": 1
+    },
+    {
+      "id": 2,
+      "label": "Debug info",
+      "type": "checkbox",
+      "address": "0x0000200C",
+      "mask": "0xBFFFFFFF",
+      "default": "0x00000000",
+      "value": "0x40000000"
+    },
+    {
+      "id": 16,
+      "label": "Coin A",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFFF8",
+      "default": "0x00000007",
+      "items": [
+        {
+          "label": "4/1",
+          "value": "0x00000000"
+        },
+        {
+          "label": "3/1",
+          "value": "0x00000001"
+        },
+        {
+          "label": "2/1",
+          "value": "0x00000002"
+        },
+        {
+          "label": "1/5",
+          "value": "0x00000003"
+        },
+        {
+          "label": "1/4",
+          "value": "0x00000004"
+        },
+        {
+          "label": "1/3",
+          "value": "0x00000005"
+        },
+        {
+          "label": "1/2",
+          "value": "0x00000006"
+        },
+        {
+          "label": "1/1",
+          "value": "0x00000007"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Coin B",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFFC7",
+      "default": "0x00000038",
+      "items": [
+        {
+          "label": "4/1",
+          "value": "0x00000000"
+        },
+        {
+          "label": "3/1",
+          "value": "0x00000008"
+        },
+        {
+          "label": "2/1",
+          "value": "0x00000010"
+        },
+        {
+          "label": "1/5",
+          "value": "0x00000018"
+        },
+        {
+          "label": "1/4",
+          "value": "0x00000020"
+        },
+        {
+          "label": "1/3",
+          "value": "0x00000028"
+        },
+        {
+          "label": "1/2",
+          "value": "0x00000030"
+        },
+        {
+          "label": "1/1",
+          "value": "0x00000038"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "label": "Cabinet",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFFBF",
+      "default": "0x00000040",
+      "items": [
+        {
+          "label": "Cocktail",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Upright",
+          "value": "0x00000040"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "label": "Flip Screen",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFF7F",
+      "default": "0x00000080",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00000080"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Difficulty",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFCFF",
+      "default": "0x00000200",
+      "items": [
+        {
+          "label": "Hardest",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Easy",
+          "value": "0x00000100"
+        },
+        {
+          "label": "Hard",
+          "value": "0x00000200"
+        },
+        {
+          "label": "Medium",
+          "value": "0x00000300"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "label": "Demo Sounds",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFBFF",
+      "default": "0x00000400",
+      "items": [
+        {
+          "label": "Off",
+          "value": "0x00000000"
+        },
+        {
+          "label": "On",
+          "value": "0x00000400"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "label": "Hurricane Kick",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFF7FF",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "Easy",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Normal",
+          "value": "0x00000800"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "label": "Timer",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFCFFF",
+      "default": "0x00001000",
+      "items": [
+        {
+          "label": "Very Fast",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Fast",
+          "value": "0x00001000"
+        },
+        {
+          "label": "Slow",
+          "value": "0x00002000"
+        },
+        {
+          "label": "Normal",
+          "value": "0x00003000"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "label": "Lives",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFF3FFF",
+      "default": "0x00008000",
+      "items": [
+        {
+          "label": "4",
+          "value": "0x00000000"
+        },
+        {
+          "label": "3",
+          "value": "0x00004000"
+        },
+        {
+          "label": "2",
+          "value": "0x00008000"
+        },
+        {
+          "label": "1",
+          "value": "0x0000C000"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "label": "Turbo",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFEFFFF",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "off",
+          "value": "0x00000000"
+        },
+        {
+          "label": "on",
+          "value": "0x00010000"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JTDD2",
+    "name": "Double Dragon II: The Revenge",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jtdd2_rev4.bit"
+    }
+  ]
+}
