@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JT1942",
+    "name": "1942",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jt1942_rev4.bit"
+    }
+  ]
+}

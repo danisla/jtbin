@@ -1,0 +1,271 @@
+{
+  "settings": [
+    {
+      "id": 0,
+      "label": "Reset",
+      "type": "action",
+      "address": "0x00002000",
+      "value": 1
+    },
+    {
+      "id": 1,
+      "label": "Screen rotation",
+      "type": "list",
+      "address": "0x00002010",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "Landscape",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Portrait, D-pad at top",
+          "value": "0x00000001"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Debug info",
+      "type": "checkbox",
+      "address": "0x0000200C",
+      "mask": "0xBFFFFFFF",
+      "default": "0x00000000",
+      "value": "0x40000000"
+    },
+    {
+      "id": 16,
+      "label": "Coin A",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFFF8",
+      "default": "0x00000007",
+      "items": [
+        {
+          "label": "Free Play",
+          "value": "0x00000000"
+        },
+        {
+          "label": "4/1",
+          "value": "0x00000001"
+        },
+        {
+          "label": "3/1",
+          "value": "0x00000002"
+        },
+        {
+          "label": "2/3",
+          "value": "0x00000003"
+        },
+        {
+          "label": "2/1",
+          "value": "0x00000004"
+        },
+        {
+          "label": "1/4",
+          "value": "0x00000005"
+        },
+        {
+          "label": "1/2",
+          "value": "0x00000006"
+        },
+        {
+          "label": "1/1",
+          "value": "0x00000007"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Cabinet",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFFF7",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "Upright",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Cocktail",
+          "value": "0x00000008"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "label": "Bonus Life",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFFCF",
+      "default": "0x00000030",
+      "items": [
+        {
+          "label": "30K 100K 100K+",
+          "value": "0x00000000"
+        },
+        {
+          "label": "30K 80K 80K+",
+          "value": "0x00000010"
+        },
+        {
+          "label": "20K 100K 100K+",
+          "value": "0x00000020"
+        },
+        {
+          "label": "20K 80K 80K+",
+          "value": "0x00000030"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "label": "Lives",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFF3F",
+      "default": "0x000000C0",
+      "items": [
+        {
+          "label": "5",
+          "value": "0x00000000"
+        },
+        {
+          "label": "2",
+          "value": "0x00000040"
+        },
+        {
+          "label": "1",
+          "value": "0x00000080"
+        },
+        {
+          "label": "3",
+          "value": "0x000000C0"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Coin B",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFF8FF",
+      "default": "0x00000700",
+      "items": [
+        {
+          "label": "Free Play",
+          "value": "0x00000000"
+        },
+        {
+          "label": "4/1",
+          "value": "0x00000100"
+        },
+        {
+          "label": "3/1",
+          "value": "0x00000200"
+        },
+        {
+          "label": "2/3",
+          "value": "0x00000300"
+        },
+        {
+          "label": "2/1",
+          "value": "0x00000400"
+        },
+        {
+          "label": "1/4",
+          "value": "0x00000500"
+        },
+        {
+          "label": "1/2",
+          "value": "0x00000600"
+        },
+        {
+          "label": "1/1",
+          "value": "0x00000700"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "label": "Service Mode",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFF7FF",
+      "default": "0x00000800",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00000800"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "label": "Flip Screen",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFEFFF",
+      "default": "0x00001000",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00001000"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "label": "Difficulty",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFF9FFF",
+      "default": "0x00006000",
+      "items": [
+        {
+          "label": "Very Difficult",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Difficult",
+          "value": "0x00002000"
+        },
+        {
+          "label": "Easy",
+          "value": "0x00004000"
+        },
+        {
+          "label": "Normal",
+          "value": "0x00006000"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "label": "Screen Stop",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFF7FFF",
+      "default": "0x00008000",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00008000"
+        }
+      ]
+    }
+  ]
+}
