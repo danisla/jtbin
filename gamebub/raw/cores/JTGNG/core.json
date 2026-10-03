@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JTGNG",
+    "name": "Ghosts'n Goblins",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jtgng_rev4.bit"
+    }
+  ]
+}
