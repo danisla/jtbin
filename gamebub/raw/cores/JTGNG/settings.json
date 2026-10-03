@@ -8,6 +8,35 @@
       "value": 1
     },
     {
+      "id": 3,
+      "label": "Swap A/B and X/Y",
+      "type": "checkbox",
+      "address": "0x00002014",
+      "default": "0x00000000",
+      "value": "0x00000001"
+    },
+    {
+      "id": 4,
+      "label": "Turbo button",
+      "type": "list",
+      "address": "0x00002018",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "None",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Button 1 (Fire)",
+          "value": "0x00000001"
+        },
+        {
+          "label": "Button 2 (Jump)",
+          "value": "0x00000002"
+        }
+      ]
+    },
+    {
       "id": 2,
       "label": "Debug info",
       "type": "checkbox",
