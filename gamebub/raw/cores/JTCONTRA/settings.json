@@ -1,0 +1,187 @@
+{
+  "settings": [
+    {
+      "id": 0,
+      "label": "Reset",
+      "type": "action",
+      "address": "0x00002000",
+      "value": 1
+    },
+    {
+      "id": 1,
+      "label": "Screen rotation",
+      "type": "list",
+      "address": "0x00002010",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "Landscape",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Portrait, D-pad at top",
+          "value": "0x00000001"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Debug info",
+      "type": "checkbox",
+      "address": "0x0000200C",
+      "mask": "0xBFFFFFFF",
+      "default": "0x00000000",
+      "value": "0x40000000"
+    },
+    {
+      "id": 16,
+      "label": "Lives",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFCFF",
+      "default": "0x00000200",
+      "items": [
+        {
+          "label": "7",
+          "value": "0x00000000"
+        },
+        {
+          "label": "5",
+          "value": "0x00000100"
+        },
+        {
+          "label": "3",
+          "value": "0x00000200"
+        },
+        {
+          "label": "2",
+          "value": "0x00000300"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Bonus Life",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFE7FF",
+      "default": "0x00001800",
+      "items": [
+        {
+          "label": "50k",
+          "value": "0x00000000"
+        },
+        {
+          "label": "40k",
+          "value": "0x00000800"
+        },
+        {
+          "label": "40k 80k",
+          "value": "0x00001000"
+        },
+        {
+          "label": "30k 70k",
+          "value": "0x00001800"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "label": "Difficulty",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFF9FFF",
+      "default": "0x00004000",
+      "items": [
+        {
+          "label": "Hardest",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Hard",
+          "value": "0x00002000"
+        },
+        {
+          "label": "Normal",
+          "value": "0x00004000"
+        },
+        {
+          "label": "Easy",
+          "value": "0x00006000"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "label": "Demo Sounds",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFF7FFF",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00008000"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "label": "Flip Screen",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFEFFFF",
+      "default": "0x00010000",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00010000"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "label": "Service Mode",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFBFFFF",
+      "default": "0x00040000",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00040000"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "label": "Sound",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFF7FFFF",
+      "default": "0x00080000",
+      "items": [
+        {
+          "label": "Mono",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Stereo",
+          "value": "0x00080000"
+        }
+      ]
+    }
+  ]
+}

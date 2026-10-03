@@ -18,6 +18,7 @@ Each core supports a single main MAME set. ROMs are not included: generate the
 | JTDD | Double Dragon (World set 1) | `ddragon.rom` |
 | JTDD2 | Double Dragon II: The Revenge | `ddragon2.rom` |
 | JTGNG | Ghosts'n Goblins (World?) | `gng.rom` |
+| JTCONTRA | Contra (US - Asia, set 1) | `contra.rom` |
 
 Double Dragon II's priority PROM (`21j-k-0`) is in `ddragon.zip`, not
 `ddragon2.zip`: `make_rom.py` merges it in (`extra_zips` in `cores.json`). A

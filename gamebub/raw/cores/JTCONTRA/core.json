@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JTCONTRA",
+    "name": "Contra",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jtcontra_rev4.bit"
+    }
+  ]
+}
