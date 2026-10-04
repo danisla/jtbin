@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JTALTBEAST",
+    "name": "Altered Beast (Sega System 16)",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jtaltbeast_rev4.bit"
+    }
+  ]
+}

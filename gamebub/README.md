@@ -21,6 +21,7 @@ Each core supports a single main MAME set. ROMs are not included: generate the
 | JTCONTRA | Contra (US - Asia, set 1) | `contra.rom` |
 | JTTETRIS | Tetris (Sega System 16, Set 3, Japan) | `tetris3.rom` |
 | JTSHINOBI | Shinobi (Sega System 16, Set 6, World) | `shinobi.rom` |
+| JTALTBEAST | Altered Beast (Sega System 16, Set 8, World) | `altbeast.rom` |
 
 Double Dragon II's priority PROM (`21j-k-0`) is in `ddragon.zip`, not
 `ddragon2.zip`: `make_rom.py` merges it in (`extra_zips` in `cores.json`). A
