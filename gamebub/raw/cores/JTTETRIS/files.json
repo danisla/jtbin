@@ -22,7 +22,7 @@
       "dependent_on_0": true,
       "address": "0x40000000",
       "max_size": "0x4000",
-      "max_transfer_speed": 500
+      "max_transfer_speed": 5000
     }
   ]
 }
