@@ -19,10 +19,14 @@ Each core supports a single main MAME set. ROMs are not included: generate the
 | JTDD2 | Double Dragon II: The Revenge | `ddragon2.rom` |
 | JTGNG | Ghosts'n Goblins (World?) | `gng.rom` |
 | JTCONTRA | Contra (US - Asia, set 1) | `contra.rom` |
+| JTTETRIS | Tetris (Sega System 16, Set 3, Japan) | `tetris3.rom` |
 
 Double Dragon II's priority PROM (`21j-k-0`) is in `ddragon.zip`, not
 `ddragon2.zip`: `make_rom.py` merges it in (`extra_zips` in `cores.json`). A
 `.rom` made without it shows only the text layer, with black gameplay.
+
+Tetris's graphics are in the parent set `tetris.zip`, not `tetris3.zip`:
+`make_rom.py` merges it in (`extra_zips` in `cores.json`).
 
 The cores are covered by the same license as the rest of this repository: use
 them only with ROM files you legally own.

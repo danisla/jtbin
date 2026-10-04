@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JTTETRIS",
+    "name": "Tetris (Sega System 16)",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jttetris_rev4.bit"
+    }
+  ]
+}

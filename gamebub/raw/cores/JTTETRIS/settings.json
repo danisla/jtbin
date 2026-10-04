@@ -1,0 +1,97 @@
+{
+  "settings": [
+    {
+      "id": 0,
+      "label": "Reset",
+      "type": "action",
+      "address": "0x00002000",
+      "value": 1
+    },
+    {
+      "id": 3,
+      "label": "Swap A/B and X/Y",
+      "type": "checkbox",
+      "address": "0x00002014",
+      "default": "0x00000000",
+      "value": "0x00000001"
+    },
+    {
+      "id": 4,
+      "label": "Turbo button",
+      "type": "list",
+      "address": "0x00002018",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "None",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Button 1 (Rotate)",
+          "value": "0x00000001"
+        },
+        {
+          "label": "Button 2 (Rotate)",
+          "value": "0x00000002"
+        },
+        {
+          "label": "Button 3 (Rotate)",
+          "value": "0x00000003"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Debug info",
+      "type": "checkbox",
+      "address": "0x0000200C",
+      "mask": "0xBFFFFFFF",
+      "default": "0x00000000",
+      "value": "0x40000000"
+    },
+    {
+      "id": 16,
+      "label": "Demo Sounds",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFFDFF",
+      "default": "0x00000000",
+      "items": [
+        {
+          "label": "On",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Off",
+          "value": "0x00000200"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "label": "Difficulty",
+      "type": "list",
+      "address": "0x00002004",
+      "mask": "0xFFFFCFFF",
+      "default": "0x00003000",
+      "items": [
+        {
+          "label": "Hardest",
+          "value": "0x00000000"
+        },
+        {
+          "label": "Hard",
+          "value": "0x00001000"
+        },
+        {
+          "label": "Easy",
+          "value": "0x00002000"
+        },
+        {
+          "label": "Normal",
+          "value": "0x00003000"
+        }
+      ]
+    }
+  ]
+}
