@@ -30,5 +30,12 @@ Double Dragon II's priority PROM (`21j-k-0`) is in `ddragon.zip`, not
 Tetris's graphics are in the parent set `tetris.zip`, not `tetris3.zip`:
 `make_rom.py` merges it in (`extra_zips` in `cores.json`).
 
+High scores: 1942, 1943, Contra, Double Dragon, Double Dragon II and
+Ghosts'n Goblins save their high scores in `<game>.sav` next to the `.rom` on
+the SD card (the arcade games don't keep them). Leave the core with its exit
+option (or power off from the core) so that the file is written; the scores
+come back the next time the core starts. 1943 restores them a few seconds into
+the attract mode.
+
 The cores are covered by the same license as the rest of this repository: use
 them only with ROM files you legally own.
