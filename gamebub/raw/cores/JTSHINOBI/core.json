@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "id": "JTSHINOBI",
+    "name": "Shinobi (Sega System 16)",
+    "author": "jotego (jtcores)"
+  },
+  "bitstreams": [
+    {
+      "target": "gamebub_rev4",
+      "filename": "jtshinobi_rev4.bit"
+    }
+  ]
+}
